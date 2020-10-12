@@ -19,10 +19,11 @@ namespace TCC.Fernando.Especificacao1.Nucleo.ConversorMedidas
 
         private static ConversorMedidasDeComprimentoEntrada ValidarEObterEntrada(IElementoEntradaConversao entradaConversao)
         {
-            var entradaConvertida = entradaConversao as ConversorMedidasDeComprimentoEntrada;
             var valores = Enum.GetValues(typeof(TipoMedida)).Cast<TipoMedida>();
 
-            if (entradaConvertida is null || !valores.Contains(entradaConvertida.De) || !valores.Contains(entradaConvertida.Para))
+            if (!(entradaConversao is ConversorMedidasDeComprimentoEntrada entradaConvertida) 
+                || !valores.Contains(entradaConvertida.De) 
+                || !valores.Contains(entradaConvertida.Para))
             {
                 throw new ArgumentException("Entrada não é válida para o método");
             }
