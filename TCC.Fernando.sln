@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCC.Fernando.Especificacao1", "TCC.Fernando.Especificacao1\TCC.Fernando.Especificacao1.csproj", "{76863A19-F881-48BE-BCE5-2F9F5F4B28B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCC.Fernando.Testes", "TCC.Fernando.Testes\TCC.Fernando.Testes.csproj", "{527BA907-5C9E-4B68-8E06-EBAD2A3462C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76863A19-F881-48BE-BCE5-2F9F5F4B28B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76863A19-F881-48BE-BCE5-2F9F5F4B28B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76863A19-F881-48BE-BCE5-2F9F5F4B28B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76863A19-F881-48BE-BCE5-2F9F5F4B28B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{527BA907-5C9E-4B68-8E06-EBAD2A3462C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{527BA907-5C9E-4B68-8E06-EBAD2A3462C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{527BA907-5C9E-4B68-8E06-EBAD2A3462C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{527BA907-5C9E-4B68-8E06-EBAD2A3462C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57494309-B5E8-46F9-86AD-0AF0C5340226}
+	EndGlobalSection
+EndGlobal
