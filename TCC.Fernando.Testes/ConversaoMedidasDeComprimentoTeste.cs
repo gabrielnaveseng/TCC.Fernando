@@ -1,4 +1,5 @@
-﻿using TCC.Fernando.Especificacao1.Fabrica;
+﻿using System;
+using TCC.Fernando.Especificacao1.Fabrica;
 using TCC.Fernando.Especificacao1.Fronteira;
 using TCC.Fernando.Especificacao1.Fronteira.Conversores.ConversorMedidas;
 using TCC.Fernando.Especificacao1.Fronteira.Enums;
@@ -27,6 +28,23 @@ namespace TCC.Fernando.Testes
             var saidaConversao = (ConversorMedidasDeComprimentoSaida) conversor.Converter(entradaConversao);
 
             Assert.True(saidaConversao.Valor == 1);
+        }
+
+        [Theory]
+        [InlineData((TipoMedida) (-1), TipoMedida.Metro, 100)]
+        [InlineData(TipoMedida.Metro, (TipoMedida)(-1), 100)]
+        public void ConverterMedidaNaoImplementada(TipoMedida de, TipoMedida para, double valor)
+        {
+            IConversor conversor = FabricaDeConversor.ObterConversor(Conversores.MedidasDeComprimento);
+
+            var entradaConversao = new ConversorMedidasDeComprimentoEntrada()
+            {
+                De = de,
+                Para = para,
+                Valor = valor
+            };
+
+            Assert.Throws<ArgumentException>(() => conversor.Converter(entradaConversao));
         }
     }
 }
