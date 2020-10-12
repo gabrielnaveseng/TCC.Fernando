@@ -14,6 +14,8 @@ namespace TCC.Fernando.Testes
         [InlineData(TipoMedida.Metro, TipoMedida.Km, 1_000)]
         [InlineData(TipoMedida.Milimetro, TipoMedida.Centimetro, 10)]
         [InlineData(TipoMedida.Milimetro, TipoMedida.Km, 1_000_000)]
+        [InlineData(TipoMedida.Km, TipoMedida.Metro, 0.001)]
+        [InlineData(TipoMedida.Km, TipoMedida.Centimetro, 0.00001)]
         public void ConverterMedida(TipoMedida de, TipoMedida para, double valor)
         {
             IConversor conversor = FabricaDeConversor.ObterConversor(Conversores.MedidasDeComprimento);

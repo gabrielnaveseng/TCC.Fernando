@@ -1,4 +1,6 @@
-﻿namespace TCC.Fernando.Especificacao1.Fronteira.Conversores.ConversorMedidas
+﻿using System;
+
+namespace TCC.Fernando.Especificacao1.Fronteira.Conversores.ConversorMedidas
 {
     public enum TipoMedida
     {
