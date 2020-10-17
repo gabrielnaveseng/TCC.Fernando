@@ -1,0 +1,9 @@
+C:\Users\192455\source\repos\TCC.Fernando\TCC.Fernando.Especificacao4\TCC.Fernando.Especificacao4\TCC.Fernando.Especificacao4.Core\bin\Debug\netstandard2.0\TCC.Fernando.Especificacao4.Core.deps.json
+C:\Users\192455\source\repos\TCC.Fernando\TCC.Fernando.Especificacao4\TCC.Fernando.Especificacao4\TCC.Fernando.Especificacao4.Core\bin\Debug\netstandard2.0\TCC.Fernando.Especificacao4.Core.dll
+C:\Users\192455\source\repos\TCC.Fernando\TCC.Fernando.Especificacao4\TCC.Fernando.Especificacao4\TCC.Fernando.Especificacao4.Core\bin\Debug\netstandard2.0\TCC.Fernando.Especificacao4.Core.pdb
+C:\Users\192455\source\repos\TCC.Fernando\TCC.Fernando.Especificacao4\TCC.Fernando.Especificacao4\TCC.Fernando.Especificacao4.Core\obj\Debug\netstandard2.0\TCC.Fernando.Especificacao4.Core.csprojAssemblyReference.cache
+C:\Users\192455\source\repos\TCC.Fernando\TCC.Fernando.Especificacao4\TCC.Fernando.Especificacao4\TCC.Fernando.Especificacao4.Core\obj\Debug\netstandard2.0\TCC.Fernando.Especificacao4.Core.csproj.CoreCompileInputs.cache
+C:\Users\192455\source\repos\TCC.Fernando\TCC.Fernando.Especificacao4\TCC.Fernando.Especificacao4\TCC.Fernando.Especificacao4.Core\obj\Debug\netstandard2.0\TCC.Fernando.Especificacao4.Core.AssemblyInfoInputs.cache
+C:\Users\192455\source\repos\TCC.Fernando\TCC.Fernando.Especificacao4\TCC.Fernando.Especificacao4\TCC.Fernando.Especificacao4.Core\obj\Debug\netstandard2.0\TCC.Fernando.Especificacao4.Core.AssemblyInfo.cs
+C:\Users\192455\source\repos\TCC.Fernando\TCC.Fernando.Especificacao4\TCC.Fernando.Especificacao4\TCC.Fernando.Especificacao4.Core\obj\Debug\netstandard2.0\TCC.Fernando.Especificacao4.Core.dll
+C:\Users\192455\source\repos\TCC.Fernando\TCC.Fernando.Especificacao4\TCC.Fernando.Especificacao4\TCC.Fernando.Especificacao4.Core\obj\Debug\netstandard2.0\TCC.Fernando.Especificacao4.Core.pdb

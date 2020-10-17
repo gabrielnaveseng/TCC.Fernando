@@ -1,0 +1,50 @@
+﻿@model TCC.Fernando.Especificacao4.Models.CadastroFilmeModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="block block-toggled">
+                @Html.LabelFor(model => Model.Filtro.TituloFilme)
+                @Html.TextBoxFor(model => Model.Filtro.TituloFilme, new { @class = "form-control text-uppercase", @id = "idTituloFilme" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="block block-toggled">
+                @Html.LabelFor(model => Model.Filtro.Genero)
+                @Html.TextBoxFor(model => Model.Filtro.Genero, new { @class = "form-control text-uppercase", @id = "idGenero" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="block block-toggled">
+                @Html.LabelFor(model => Model.Filtro.Ano)
+                @Html.TextBoxFor(model => Model.Filtro.Ano, new { @class = "form-control text-uppercase", @id = "idAno", @type = "number" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="block block-toggled">
+                @Html.LabelFor(model => Model.Filtro.Estudio)
+                @Html.TextBoxFor(model => Model.Filtro.Estudio, new { @class = "form-control text-uppercase", @id = "idEstudio" })
+            </div>
+        </div>
+    </div>
+<br>
+<br>
+<button type="button" class="btn btn-danger" onclick="filtrar()" id="botaoFiltrar">
+    <i class="glyphicon"></i> Filtrar
+</button>
+
+<button type="button" class="btn btn-light" onclick="salvar()" id="botaoSalvar">
+    <i class=""></i> Salvar
+</button>
+
+<br>
+<br>
+@Html.Partial("_GridFilme", Model?.Filmes)
+
+
+<script type="text/javascript">
+    var urlSalvar = '@Url.Action("Salvar", "Home")';
+</script>

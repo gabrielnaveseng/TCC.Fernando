@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "iMLlekG26eba5B9WOBqoH9SW741SukUA7Zx0jwyqSJR3KiJwMM3gzJzkHpqS+EGEow2C6ICYuswE9pqvbGUk8w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\192455\\source\\repos\\TCC.Fernando\\TCC.Fernando.Especificacao4\\TCC.Fernando.Especificacao4\\TCC.Fernando.Especificacao4.Core\\TCC.Fernando.Especificacao4.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\192455\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\192455\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

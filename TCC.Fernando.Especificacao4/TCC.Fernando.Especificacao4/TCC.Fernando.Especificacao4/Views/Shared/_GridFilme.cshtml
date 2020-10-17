@@ -1,0 +1,30 @@
+﻿@model IEnumerable<FilmeModel>
+
+@if (Model != null && Model.Count() > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Titulo Filme</th>
+                <th scope="col">Genero</th>
+                <th scope="col">Ano</th>
+                <th scope="col">Estudio</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var filme in Model)
+            {
+                <tr>
+                    <th scope="row">@filme.TituloFilme</th>
+                    <td>@filme.Genero</td>
+                    <td>@filme.Ano</td>
+                    <td>@filme.Estudio</td>
+                </tr>
+            }
+        </tbody>
+    </table> 
+}
+else
+{
+    <div class="alert-info">Nenhum resultado encontrato</div>
+}
